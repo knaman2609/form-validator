@@ -3,12 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>Module</title>
-  <link rel="stylesheet" media="all" href="../module.css">
+  <link rel="stylesheet" media="all" href="../form-validator.css">
 </head>
 <body>
+<div class="form">
+  <div class="input" field-name='first-name'>
+    <input type="text" placeholder="First Name">
+  </div>
+  <div class="input" field-name='last-name'>
+  <input type="text" placeholder="Last Name">
+</div>
+<div class="input" field-name='pswd'>
+  <input type="text" placeholder="Password">
+</div>
+<div class="input" field-name='pswd-again'>
+  <input type="text" placeholder="Password Again">
+</div>
+<div class="input" field-name='description'>
+  <textarea  id="" cols="30" rows="10"></textarea>
+</div>
 
+<div class="button">Submit</div>
+</div>
 <script src="../node_modules/jquery/dist/jquery.js"></script>
-<script src="../module.js"></script>
+<script src="../form-validator.js"></script>
 <script src="main.js"></script>
 
 </body>

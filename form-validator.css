@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+*
+* Sample css
+*
+**/
+
+.form {
+  width: 250px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.input {
+  position: relative;
+}
+
+.input input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  border: 1px solid #907E7E;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+  outline: none;
+  padding: 10px 0px 0px 10px;
+}
+
+.input input:focus ,
+.input textarea:focus {
+  border-color: #4A4141;
+}
+
+.input.is-empty input ,
+.input.is-empty textarea {
+  border-color: #FF4E70;
+}
+
+.input.is-valid input ,
+.input.is-valid textarea {
+  border-color: #00a37a;
+}
+
+
+.button {
+  background: #3FCECB;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.tooltip {
+  font-size: 12px;
+  background: #DC3F5F;
+  position: absolute;
+  padding: 5px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 3px;
+  left: 100%;
+  margin-left: 10px;
+  white-space: nowrap;
+  top: 0px;
+}
+
+.tooltip::after  {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 8px solid transparent;
+  border-right: 10px solid #DC3F5F;
+  border-bottom: 8px solid transparent;
+  top: 50%;
+  margin-top: -8px;
+  left: -8px;
+}
+
+.tooltip.danger {
+  background: #d9534f;
+}
+
+.tooltip.danger::after  {
+  border-right: 10px solid #d9534f;
+}
+
+.tooltip.warning {
+  background: #eea236;
+}
+
+.tooltip.warning::after  {
+  border-right: 10px solid #eea236;
+}
+
+.tooltip.success {
+  background: #5cb85c;
+}
+
+.tooltip.success::after  {
+  border-right: 10px solid #5cb85c;
+}

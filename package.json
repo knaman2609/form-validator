@@ -1,11 +1,18 @@
 {
-  "name": "module-name",
+  "name": "form-validatorjs",
   "version": "0.0.0",
-  "description": "module-description",
+  "description": "A simple form validator",
   "keywords": [
+    "form",
+    "validation",
+    "form-validation",
+    "form-validator",
+    "form-validatorjs",
+    "validate",
+    "form-validate",
   ],
-  "main": "module.js",
-  "repository": "knaman2609/Module",
+  "main": "form-validator.js",
+  "repository": "knaman2609/form-validator",
   "dependencies": {
     "jquery": "latest"
   },
