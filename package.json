@@ -1,6 +1,6 @@
 {
   "name": "form-validatorjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple form validator",
   "keywords": [
     "form",
@@ -22,7 +22,7 @@
     "chai": "^3.2.0",
     "mocha": "^2.2.5",
     "jsdom": "3.1.2",
-    "sinon":"1.15.4",
+    "sinon": "1.15.4",
     "sinon-chai": "2.8.0"
   },
   "author": {
