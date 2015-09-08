@@ -59,6 +59,7 @@ $('.button').click(function() {
 
 `isValid`  will be returned `true` or `false` depending upon validation.`result` will contain key-value pair of fields.
 
+Fields are validated `onFocusout` and reset when `focused`.
 
 ##### Options
 - `field` - the wrapper element that contains all the inputs.
