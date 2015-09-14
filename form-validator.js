@@ -289,6 +289,12 @@
     getFields.call(this);
   };
 
+  FormValidator.prototype.empty = function() {
+    $.each(this.fields.inputs, function(i, $field) {
+      $field.val('');
+    });
+  };
+
   FormValidator.prototype.run = function(cb) {
     var _this = this;
 
