@@ -159,6 +159,8 @@ tooltip: {
 }
 ```
 
+###### Api
+    formValidator.empty() // empty all the fields
 
 
 
